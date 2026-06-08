@@ -1,7 +1,6 @@
 package org.ivangeevo.no_nerdpoling.platform.services;
 
-public interface IPlatformHelper
-{
+public interface IPlatformHelper {
 
     /**
      * Gets the name of the current platform
@@ -33,4 +32,5 @@ public interface IPlatformHelper
     default String getEnvironmentName() {
         return isDevelopmentEnvironment() ? "development" : "production";
     }
+
 }
