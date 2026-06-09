@@ -67,13 +67,16 @@ jar {
     }
 
     manifest {
-        attributes(['Specification-Title'   : mod_name,
+        attributes(
+                ['Specification-Title'   : mod_name,
                     'Specification-Vendor'  : mod_author,
                     'Specification-Version' : project.jar.archiveVersion,
                     'Implementation-Title'  : project.name,
                     'Implementation-Version': project.jar.archiveVersion,
                     'Implementation-Vendor' : mod_author,
-                    'Built-On-Minecraft'    : minecraft_version])
+                    'Built-On-Minecraft'    : minecraft_version
+                ]
+        )
     }
 }
 
@@ -84,6 +87,7 @@ processResources {
                        'minecraft_version_range'      : minecraft_version_range,
                        'fabric_version'               : fabric_version,
                        'fabric_loader_version'        : fabric_loader_version,
+                       'loom_version'                 : loom_version,
                        'mod_name'                     : mod_name,
                        'mod_author'                   : mod_author,
                        'mod_id'                       : mod_id,
@@ -91,10 +95,10 @@ processResources {
                        'description'                  : project.description,
                        'neoforge_version'             : neoforge_version,
                        'neoforge_loader_version_range': neoforge_loader_version_range,
-                       "forge_version"                : forge_version,
-                       "forge_loader_version_range"   : forge_loader_version_range,
+                       'neoforge_moddev_version'      : neoforge_moddev_version,
                        'credits'                      : credits,
-                       'java_version'                 : java_version]
+                       'java_version'                 : java_version
+    ]
 
     filesMatching(['pack.mcmeta', 'fabric.mod.json', 'META-INF/mods.toml', 'META-INF/neoforge.mods.toml', '*.mixins.json']) {
         expand expandProps
