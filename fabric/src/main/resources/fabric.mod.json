@@ -8,15 +8,15 @@
     "${mod_author}"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/mod/no-nerdpoling",
+    "sources": "https://github.com/ivangeevo/no-nerdpoling"
   },
   "license": "${license}",
   "icon": "${mod_id}.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "org.ivangeevo.no_nerdpoling.NoNerdpolingMod"
+      "org.btwr.no_nerdpoling.NoNerdpolingMod"
     ]
   },
   "mixins": [

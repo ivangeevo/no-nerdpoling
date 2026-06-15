@@ -1,11 +1,11 @@
-package org.ivangeevo.no_nerdpoling.event;
+package org.btwr.no_nerdpoling.event;
 
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
 import net.minecraft.world.InteractionResult;
 
 public class FabricBlockPlacementListener {
 
-    public static void register() {
+    public static void initialize() {
         UseBlockCallback.EVENT.register((player, world, hand, hitResult) -> {
             if (!player.isCreative()) {
                 if (!player.onGround()

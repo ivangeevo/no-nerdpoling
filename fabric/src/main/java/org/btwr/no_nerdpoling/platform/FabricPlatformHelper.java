@@ -1,6 +1,6 @@
-package org.ivangeevo.no_nerdpoling.platform;
+package org.btwr.no_nerdpoling.platform;
 
-import org.ivangeevo.no_nerdpoling.platform.services.IPlatformHelper;
+import org.btwr.no_nerdpoling.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatformHelper implements IPlatformHelper {

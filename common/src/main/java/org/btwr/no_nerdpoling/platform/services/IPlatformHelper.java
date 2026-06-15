@@ -1,4 +1,4 @@
-package org.ivangeevo.no_nerdpoling.platform.services;
+package org.btwr.no_nerdpoling.platform.services;
 
 public interface IPlatformHelper {
 

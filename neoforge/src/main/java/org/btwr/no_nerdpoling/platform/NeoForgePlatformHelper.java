@@ -1,6 +1,6 @@
-package org.ivangeevo.no_nerdpoling.platform;
+package org.btwr.no_nerdpoling.platform;
 
-import org.ivangeevo.no_nerdpoling.platform.services.IPlatformHelper;
+import org.btwr.no_nerdpoling.platform.services.IPlatformHelper;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.loading.FMLLoader;
 

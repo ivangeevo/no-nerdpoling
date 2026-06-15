@@ -1,7 +1,7 @@
-package org.ivangeevo.no_nerdpoling.platform;
+package org.btwr.no_nerdpoling.platform;
 
-import org.ivangeevo.no_nerdpoling.Constants;
-import org.ivangeevo.no_nerdpoling.platform.services.IPlatformHelper;
+import org.btwr.no_nerdpoling.platform.services.IPlatformHelper;
+import org.btwr.no_nerdpoling.Constants;
 
 import java.util.ServiceLoader;
 

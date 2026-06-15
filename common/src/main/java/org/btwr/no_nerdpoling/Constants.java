@@ -1,4 +1,4 @@
-package org.ivangeevo.no_nerdpoling;
+package org.btwr.no_nerdpoling;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package org.ivangeevo.no_nerdpoling.event;
+package org.btwr.no_nerdpoling.event;
 
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
